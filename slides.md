@@ -11,3 +11,10 @@ Core beliefs
 
 Core practices
 --------------
+* point-to-point integration
+* lightweight APIs
+* and our personal favorite: no bikeshedding
+ 
+On bikeshedding
+---------------
+Cartoon here
