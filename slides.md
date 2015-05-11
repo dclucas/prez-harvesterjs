@@ -8,6 +8,8 @@ A nerd.
 
 And what about this AGCO thing?
 -------------------------------
+* We build tractors, sprayers and harvesters (nudge, nudge)
+* And this is pretty high-tech stuff
 
 Core beliefs
 ------------
