@@ -2,6 +2,13 @@ Lghtweight APIs with harvester.js
 ==========
 Or *how I learned to stop worrying and love Node.js APIs*
 
+Who am I?
+---------
+A nerd.
+
+And what about this AGCO thing?
+-------------------------------
+
 Core beliefs
 ------------
 * distributed over centralized
@@ -17,4 +24,11 @@ Core practices
  
 On bikeshedding
 ---------------
-Cartoon here
+bikeshessing01
+ 
+On bikeshedding
+---------------
+bikeshessing02
+
+
+
