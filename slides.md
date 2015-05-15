@@ -1,36 +1,49 @@
-Lghtweight APIs with harvester.js
+Lightweight APIs with harvester.js
 ==========
 Or *how I learned to stop worrying and love Node.js APIs*
 
-Who am I?
----------
-A nerd.
 
-And what about this AGCO thing?
--------------------------------
-* We build tractors, sprayers and harvesters (nudge, nudge)
-* And this is pretty high-tech stuff
+Disclaimer
+----------
+This presentation *is* a sales pitch
 
-Core beliefs
-------------
-* distributed over centralized
-* just enough over overengineering
-* gradual evolution over big bangs
-* simple over easy
 
-Core practices
---------------
-* point-to-point integration
-* lightweight APIs
-* and our personal favorite: no bikeshedding
- 
-On bikeshedding
+The why of APIs
 ---------------
-bikeshessing01
+* simple
+* composable
+* scalable
+
+
+![Soap is much more polite than rest](/images/rest-vs-soap.png "Soap is much more polite than rest")
+
+
+The why of node.js & mongodb
+----------------------------
+* simple
+* scalable
+* expressive
+
+
+The why of jsonapi
+------------------
+* existing, documented spec
+* *no* bikeshedding
+
+
+![XKCD: competing standards](/images/xkcd-standards.png "XKCD: competing standards")
+
+
+On bikeshedding...
+
+
+![Alt text](/images/bikeshedding00.png "Reactors are easy to discuss")
+
  
-On bikeshedding
----------------
-bikeshessing02
+![Alt text](/images/bikeshedding01.png "Bikesheds, on the other hand, are really hard")
 
 
-
+The why of harvester.js
+-----------------------
+* all of the above +
+* *no* boiletplate
