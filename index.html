@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>reveal.js - The HTML Presentation Framework</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+			<div class="slides">
+				<section data-markdown data-separator="\n\n">
+Lightweight APIs with harvester.js
+==========
+Or *how I learned to stop worrying and love Node.js APIs*
+
+Disclaimer
+----------
+This presentation *is* a sales pitch
+
+
+The why of APIs
+---------------
+* simple
+* composable
+* scalable
+
+
+on simplicity...
+
+
+![Soap is much more polite than rest](./images/rest-vs-soap.png "Soap is much more polite than rest")
+
+
+The why of node.js & mongodb
+----------------------------
+* simple
+* scalable
+* expressive
+
+
+The why of [jsonapi](http://jsonapi.org/)
+------------------
+* existing, documented standard
+* defines URL routing & payload formats
+* *no* bikeshedding
+
+
+on standards...
+
+
+![XKCD: competing standards](./images/xkcd-standards.png "XKCD: competing standards")
+
+
+on bikeshedding...
+
+
+![Alt text](./images/bikeshedding00.png "Reactors are easy to discuss")
+
+ 
+![Alt text](./images/bikeshedding01.png "Bikesheds, on the other hand, are really hard")
+
+
+The why of harvester.js
+-----------------------
+* all of the above +
+* *no* magic
+* *no* boilerplate
+
+
+on harvester.js...
+
+
+The what of harvester.js
+------------------------
+* [an AGCO-backed open-source project](http://developer.agcocorp.com)
+* a clone of [fortune.js](http://fortunejs.com/)
+* a routing/mapping library
+* [an npm package](https://www.npmjs.com/package/harvesterjs)
+
+
+enough talk, show me the code!
+
+
+basic CRUD, out of box
+
+
+[resource relationships*](http://jsonapi.org/format/#document-structure-resource-relationships)
+
+
+filtering*
+
+
+inclusion of linked resources*
+
+
+but wait, there's more!
+-----------------------
+* sparse fieldsets*
+* sorting*
+* errors*
+* offset-based pagination
+* node-swagger-express ready
+
+
+lessons from the trenches...
+----------------------------
+
+
+automated (especially e2e) testing is your best friend
+
+
+devops practices as enablers
+
+
+break the heavy, bloated cycle
+
+
+fullstack js: great, but no silver bullet
+
+
+promises: easy to make, hard to keep.
+definitely worth it, though
+
+
+the hard art of chosing who handles more complex operations
+
+
+entity relationship: DDD FTW
+
+
+make your APIs self contained, allow cross-domain links
+
+
+consider indexing across APIs
+
+
+Extending harvester.js
+-----------------------
+* elastic-harvesterjs: harvester.js meets ElasticSearch
+* passport-openam
+* event-source-stream
+* to-do: a DSL for v2.0
+
+
+tks.
+
+
+Info
+----
+* presentation libs: [reveal.js](http://lab.hakim.se/reveal-js/#/) and [reveal-md](https://github.com/webpro/reveal-md) (runtime)
+* comics by [Geek and Poke](http://geek-and-poke.com/), [XKCD](http://xkcd.com/#eyJxIjoiIiwiYSI6WyImI3gxRjRFMzsiLCImI3gxRjRFQjsiXX0=), and Diogo Lucas (respectively)
+* join our lean coffe meetings: http://portoalegre.leancoffee.org/
+* Diogo's contacts: http://about.me/diogo.lucas
+                </section>
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
