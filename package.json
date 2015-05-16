@@ -4,8 +4,8 @@
   "description": "A presentation about harvester.js, for the RSJS 2015 conf.",
   "main": "slides.md",
   "scripts": {
-    "start": "node_modules/reveal-md/bin/server-cli.js slides.md --theme sky --separator '\\n\\n+'",
-    "print": "node_modules/reveal-md/bin/server-cli.js slides.md --theme sky --separator '\\n\\n+' --print slides.pdf",
+    "start": "node_modules/reveal-md/bin/server-cli.js slides.md --separator '\\n\\n+'",
+    "build": "node_modules/reveal-md/bin/server-cli.js slides.md --separator '\\n\\n+' --print slides.pdf",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
