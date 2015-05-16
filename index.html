@@ -4,10 +4,10 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>reveal.js - The HTML Presentation Framework</title>
+		<title>Building lightweight APIs with harvester.js</title>
 
-		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
-		<meta name="author" content="Hakim El Hattab">
+		<meta name="description" content="A presentation about harvester.js for the RSJS 2015 conf.">
+		<meta name="author" content="Diogo Lucas">
 
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -58,7 +58,7 @@ The why of APIs
 on simplicity...
 
 
-![Soap is much more polite than rest](./images/rest-vs-soap.png "Soap is much more polite than rest")
+![Soap is much more polite than rest](/images/rest-vs-soap.png "Soap is much more polite than rest")
 
 
 The why of node.js & mongodb
@@ -78,16 +78,16 @@ The why of [jsonapi](http://jsonapi.org/)
 on standards...
 
 
-![XKCD: competing standards](./images/xkcd-standards.png "XKCD: competing standards")
+![XKCD: competing standards](/images/xkcd-standards.png "XKCD: competing standards")
 
 
 on bikeshedding...
 
 
-![Alt text](./images/bikeshedding00.png "Reactors are easy to discuss")
+![Alt text](/images/bikeshedding00.png "Reactors are easy to discuss")
 
  
-![Alt text](./images/bikeshedding01.png "Bikesheds, on the other hand, are really hard")
+![Alt text](/images/bikeshedding01.png "Bikesheds, on the other hand, are really hard")
 
 
 The why of harvester.js
@@ -111,16 +111,20 @@ The what of harvester.js
 enough talk, show me the code!
 
 
-basic CRUD, out of box
+simple project setup
+[![asciicast](https://asciinema.org/a/20139.png)](https://asciinema.org/a/20139)
+
+
+[basic CRUD & routing, out of box*](http://localhost:2426/comments)
 
 
 [resource relationships*](http://jsonapi.org/format/#document-structure-resource-relationships)
 
 
-filtering*
+[filtering*](http://localhost:2426/posts?title=Post%203)
 
 
-inclusion of linked resources*
+[inclusion of linked resources*](http://localhost:2426/comments?include=post)
 
 
 but wait, there's more!

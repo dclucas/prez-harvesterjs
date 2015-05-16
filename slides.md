@@ -70,16 +70,20 @@ The what of harvester.js
 enough talk, show me the code!
 
 
-basic CRUD, out of box
+simple project setup
+[![asciicast](https://asciinema.org/a/20139.png)](https://asciinema.org/a/20139)
+
+
+[basic CRUD & routing, out of box*](http://localhost:2426/comments)
 
 
 [resource relationships*](http://jsonapi.org/format/#document-structure-resource-relationships)
 
 
-filtering*
+[filtering*](http://localhost:2426/posts?title=Post%203)
 
 
-inclusion of linked resources*
+[inclusion of linked resources*](http://localhost:2426/comments?include=post)
 
 
 but wait, there's more!
