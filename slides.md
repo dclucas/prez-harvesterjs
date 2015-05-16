@@ -136,7 +136,7 @@ tks.
 
 Info
 ----
-* presentation lib: [reveal.js](http://lab.hakim.se/reveal-js/#/) and [reveal-md](https://github.com/webpro/reveal-md) (runtime)
+* presentation libs: [reveal.js](http://lab.hakim.se/reveal-js/#/) and [reveal-md](https://github.com/webpro/reveal-md) (runtime)
 * comics by (Geek and Poke)[http://geek-and-poke.com/], (XKCD)[http://xkcd.com/#eyJxIjoiIiwiYSI6WyImI3gxRjRFMzsiLCImI3gxRjRFQjsiXX0=], and Diogo Lucas (respectively)
 * join our lean coffe meetings: http://portoalegre.leancoffee.org/
 * Diogo's contacts: http://about.me/diogo.lucas
