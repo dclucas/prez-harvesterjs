@@ -1,0 +1,34 @@
+{
+  "name": "prez-harvesterjs",
+  "version": "1.0.0",
+  "description": "A presentation about harvester.js, for the RSJS 2015 conf.",
+  "main": "slides.md",
+  "scripts": {
+    "start": "node_modules/reveal-md/bin/server-cli.js slides.md --theme sky --separator '\\n\\n+'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dclucas/prez-harvesterjs.git"
+  },
+  "keywords": [
+    "presentation",
+    "harvesterjs",
+    "api",
+    "apis",
+    "mongodb",
+    "json",
+    "jsonapi",
+    "reveal.js",
+    "harvester.js"
+  ],
+  "author": "Diogo Lucas (diogo.lucas@agcocorp.com)",
+  "license": "CC BY-SA 4.0",
+  "bugs": {
+    "url": "https://github.com/dclucas/prez-harvesterjs/issues"
+  },
+  "homepage": "https://github.com/dclucas/prez-harvesterjs",
+  "dependencies": {
+    "reveal-md": "0.0.18"
+  }
+}
