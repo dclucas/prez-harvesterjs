@@ -28,9 +28,10 @@ The why of node.js & mongodb
 * expressive
 
 
-The why of jsonapi
+The why of [jsonapi](http://jsonapi.org/)
 ------------------
 * existing, documented standard
+* defines URL routing & payload formats
 * *no* bikeshedding
 
 
@@ -52,6 +53,7 @@ on bikeshedding...
 The why of harvester.js
 -----------------------
 * all of the above +
+* *no* magic
 * *no* boilerplate
 
 
@@ -67,6 +69,9 @@ The what of harvester.js
 
 
 enough talk, show me the code!
+
+
+basic CRUD, out of box
 
 
 [resource relationships*](http://jsonapi.org/format/#document-structure-resource-relationships)
@@ -88,15 +93,13 @@ but wait, there's more!
 
 
 lessons from the trenches...
+----------------------------
 
 
-
-automated testing is your best friend
-(especially for dynamic languages)
+automated (especially e2e) testing is your best friend
 
 
-
-e2e tests: great fit for APIs 
+devops practices as enablers
 
 
 break the heavy, bloated cycle
@@ -109,10 +112,7 @@ promises: easy to make, hard to keep.
 definitely worth it, though
 
 
-transactions: a yellow flag
-
-
-the hard line of chosing who handles more complex operations
+the hard art of chosing who handles more complex operations
 
 
 entity relationship: DDD FTW
