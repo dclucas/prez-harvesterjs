@@ -109,10 +109,35 @@ promises: easy to make, hard to keep.
 definitely worth it, though
 
 
+transactions: a yellow flag
+
+
+the hard line of chosing who handles more complex operations
+
+
+entity relationship: DDD FTW
+
+
+make your APIs self contained, allow cross-domain links
+
+
+consider indexing across APIs
+
 
 Extending harvester.js
 -----------------------
 * elastic-harvesterjs: harvester.js meets ElasticSearch
 * passport-openam
 * event-source-stream
+* to-do: a DSL for v2.0
 
+
+tks.
+
+
+Info
+----
+* presentation lib: [reveal.js](http://lab.hakim.se/reveal-js/#/) and [reveal-md](https://github.com/webpro/reveal-md) (runtime)
+* comics by (Geek and Poke)[http://geek-and-poke.com/], (XKCD)[http://xkcd.com/#eyJxIjoiIiwiYSI6WyImI3gxRjRFMzsiLCImI3gxRjRFQjsiXX0=], and Diogo Lucas (respectively)
+* join our lean coffe meetings: http://portoalegre.leancoffee.org/
+* Diogo's contacts: http://about.me/diogo.lucas
